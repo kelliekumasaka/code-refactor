@@ -43,6 +43,10 @@ body {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* main image of board discussion */
 .hero {
     height: 800px;
@@ -72,6 +76,10 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* side bar formats */
