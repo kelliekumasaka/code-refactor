@@ -2,28 +2,32 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #ffffff;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
+/* header formatting */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
+/* title heading alignment and size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* color pop in title */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* header bar formatting */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +36,14 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-    float: right;
-}
-
+/* navigation bar display */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* main image of board discussion */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,24 +53,28 @@ p {
     background-position: center;
 }
 
+/* images in sections on left */
 .float-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
+/* image in section on right */
 .float-right {
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
-.content {
+/* main body display */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* side bar formats */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,7 +88,6 @@ p {
 
 .benefit-all {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit-all h3 {
@@ -105,13 +101,13 @@ p {
     max-width: 150px;
 }
 
+/* main content formatting */
 .main-body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
 .main-body h2 {
@@ -119,13 +115,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* footer formatting */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+footer h2, footer p {
+    color: black;
 }
